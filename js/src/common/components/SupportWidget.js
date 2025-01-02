@@ -21,10 +21,14 @@ export default class SupportWidget extends Widget {
 
     icon() {
         // Widget icon.
-        return 'far fa-file-code';
+        return 'far fa-handshake';
     }
 
-    content() {
-        return <div class="htmlwidget" id="supporthtml"></div>;
+    title() {
+      return app.translator.trans('nodeloc-support-widget.forum.widget.title');
     }
+    content() {
+      return (
+        <div class="htmlwidget" id="supporthtml"></div>
+      );}
 }

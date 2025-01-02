@@ -4,3 +4,5 @@ nodeloc-support-widget:
       trusted website. Remember also to use correct width (to fit the widget sidebar).
     warningtext: Custom Html Code
   forum:
+    widget:
+      title: Thanks
