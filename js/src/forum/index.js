@@ -1,5 +1,5 @@
 /*
- * This file is part of justoverclock/custom-html-widget.
+ * This file is part of nodeloc/support-widget.
  *
  * Copyright (c) 2021 Marco Colia.
  * https://flarum.it
@@ -11,6 +11,6 @@
 import app from 'flarum/forum/app';
 import registerWidget from '../common/registerWidget';
 
-app.initializers.add('justoverclock/custom-html-widget', () => {
+app.initializers.add('nodeloc/support-widget', () => {
     registerWidget(app);
 });

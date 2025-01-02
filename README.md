@@ -1,6 +1,6 @@
 # Custom Html Widget
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg) [![Latest Stable Version](https://poser.pugx.org/justoverclock/custom-html-widget/v)](https://packagist.org/packages/justoverclock/custom-html-widget) [![Total Downloads](http://poser.pugx.org/justoverclock/custom-html-widget/downloads)](https://packagist.org/packages/justoverclock/custom-html-widget)
+![License](https://img.shields.io/badge/license-MIT-blue.svg) [![Latest Stable Version](https://poser.pugx.org/nodeloc/support-widget/v)](https://packagist.org/packages/nodeloc/support-widget) [![Total Downloads](http://poser.pugx.org/nodeloc/support-widget/downloads)](https://packagist.org/packages/nodeloc/support-widget)
 
 A [Flarum](http://flarum.org) extension. Add your custom html to Flarum
 
@@ -12,18 +12,18 @@ A [Flarum](http://flarum.org) extension. Add your custom html to Flarum
 Install with composer:
 
 ```sh
-composer require justoverclock/custom-html-widget:"*"
+composer require nodeloc/support-widget:"*"
 ```
 
 ## Updating
 
 ```sh
-composer update justoverclock/custom-html-widget:"*"
+composer update nodeloc/support-widget:"*"
 php flarum cache:clear
 ```
 
 ## Links
 
-- [Packagist](https://packagist.org/packages/justoverclock/custom-html-widget)
-- [GitHub](https://github.com/justoverclockl/custom-html-widget)
+- [Packagist](https://packagist.org/packages/nodeloc/support-widget)
+- [GitHub](https://github.com/nodelocl/support-widget)
 

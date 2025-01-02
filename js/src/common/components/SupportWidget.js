@@ -1,5 +1,5 @@
 /*
- * This file is part of justoverclock/custom-html-widget 
+ * This file is part of nodeloc/support-widget
  *
  * Copyright (c) 2021 Marco Colia.
  * https://flarum.it
@@ -10,13 +10,13 @@
 import app from 'flarum/forum/app';
 import Widget from 'flarum/extensions/afrux-forum-widgets-core/common/components/Widget';
 
-export default class LastTweetWidget extends Widget {
+export default class SupportWidget extends Widget {
     oncreate(vnode) {
-        document.getElementById('wghtml').innerHTML = app.forum.attribute('justoverclock-custom-html-widget.customCode');
+        document.getElementById('supporthtml').innerHTML = app.forum.attribute('nodeloc-support-widget.customCode');
     }
 
     className() {
-        return 'custom-html-widget';
+        return 'support-widget';
     }
 
     icon() {
@@ -25,6 +25,6 @@ export default class LastTweetWidget extends Widget {
     }
 
     content() {
-        return <div class="htmlwidget" id="wghtml"></div>;
+        return <div class="htmlwidget" id="supporthtml"></div>;
     }
 }

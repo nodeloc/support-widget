@@ -1,5 +1,5 @@
 {
-    "name": "justoverclock/custom-html-widget",
+    "name": "nodeloc/support-widget",
     "description": "Add your custom html to Flarum",
     "keywords": [
         "widget",
@@ -17,19 +17,19 @@
     },
     "authors": [
         {
-            "name": "Marco Colia",
-            "email": "info@flarum.it",
+            "name": "James",
+            "email": "james@nodeloc.com",
             "role": "Developer"
         }
     ],
     "autoload": {
         "psr-4": {
-            "Justoverclock\\CustomHtmlWidget\\": "src/"
+            "Nodeloc\\SupportWidget\\": "src/"
         }
     },
     "extra": {
         "flarum-extension": {
-            "title": "Custom Html Widget",
+            "title": "Support Widget",
             "category": "",
             "icon": {
                 "name": "far fa-file-code",
